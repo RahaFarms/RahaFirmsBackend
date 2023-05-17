@@ -45,10 +45,10 @@ const bookNowController = asyncHandler(async (req, res) => {
     });
 
     const mailOptions = {
-      from: '"Raha Firms" <therahafarms@gmail.com>',
+      from: '"Raha Farms" <therahafarms@gmail.com>',
       to: email,
       subject: "Your Application",
-      html: `<h4 style="font-size: 15px;">Hi ${name},</h4><br> <h5 style="font-size: 13px;">Thank you for choosing our Farm for your upcoming stay! We have received your booking form and are excited to confirm your reservation. Our team is diligently working to process your request and will reach out to you shortly with a confirmation email containing all the details of your booking.
+      html: `<h4 style="font-size: 15px;">Hi ${name},</h4><br><img src="rahaImg.jpg"> <h5 style="font-size: 13px;">Thank you for choosing our Farm for your upcoming stay! We have received your booking form and are excited to confirm your reservation. Our team is diligently working to process your request and will reach out to you shortly with a confirmation email containing all the details of your booking.
 
       At our resort, we strive to provide an unforgettable experience for our guests. From luxurious accommodations to top-notch amenities and exceptional customer service, we aim to make your stay with us truly memorable.
       
