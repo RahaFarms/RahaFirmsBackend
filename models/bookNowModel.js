@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const bookNowModel = mongoose.Schema(
   {
     name: { type: String, required: true },
-    email: { type: String, required: true, unique: true },
+    email: { type: String, required: true },
     checkIn: { type: String, required: true },
     checkOut: { type: String, required: true },
     adults: { type: Number, required: true },

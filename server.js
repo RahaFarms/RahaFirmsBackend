@@ -7,6 +7,7 @@ const bookNowRoute = require("./routes/bookNowRoute");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 var cors = require('cors')
 
+
 dotenv.config();
 
 connectDB();
